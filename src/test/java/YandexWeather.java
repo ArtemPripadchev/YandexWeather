@@ -13,6 +13,8 @@ import java.util.Map;
 public class YandexWeather {
     @Test
     public void startWebDriver() {
+		
+		//ТЕСТ ДЛЯ ГИТА
 
         System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe"); //для Chrome.
         WebDriver driver = new ChromeDriver(); //старт для Хрома
